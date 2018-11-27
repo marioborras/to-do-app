@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Todo App</title>
+        <link rel="stylesheet" href="/styles/main.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <h1 class="header_title">To-do App</h1>
+                <div class="header_subtitle">What do you need to do?</div>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="actions__container">
+                    <input id="search-text" class="input" type="text" placeholder="Search">
+                    <label class="checkbox"><input id="hide-completed" type="checkbox">Hide completed </label>
+            </div>
+        </div>
+        <div class="container">
+            <div id ="todos"></div>
+            <form id="to-do-form">
+                <input type="text" class="input" placeholder="add something to do" name="text">
+                <button class="button">Add Todo</button>
+            </form>
+        </div>
+
+        
+        <script src="/scripts/bundle.js"></script>
+    </body>
+</html>
